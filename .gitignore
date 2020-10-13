@@ -1,0 +1,28 @@
+# Temp files
+.bin
+*.TODO
+
+!.gitignore
+!.gitlab-ci.yml
+!.gitmodules
+!.gometalinter.json
+!.golangci.yml
+
+# Binaries
+bin
+venv
+vendor
+*.so
+
+# Sublime
+*.sublime-project
+*.sublime-workspace
+
+# Certificates
+*.crt
+*.key
+*.pem
+*.out
+
+.idea/*
+idir
